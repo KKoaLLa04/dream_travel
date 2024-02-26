@@ -24,34 +24,17 @@
     <header class="header">
         <div class="container">
             <div class="row pt-4 align-items-center">
-                <div class="col-3">
+                <!-- <div class="col-3">
                     <img src="./assets/images/Logo.png">
-                </div>
-
-                <!-- <div class="col-6 text-center header__text">
-                    <div class="row">
-                        <div class="col">
-                            find a trip
-                        </div>
-
-                        <div class="col">
-                            destinations
-                        </div>
-
-                        <div class="col">
-                            why besnik
-                        </div>
-
-                        <div class="col">
-                            contact
-                        </div>
-                    </div>
                 </div> -->
 
-                <div class="col-9 header__text">
+                <div class="col-12 header__text">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                        <span></span>
+                        <span>
+                            <div class="col-3">
+                                <img src="./assets/images/Logo.png">
+                            </div>
+                        </span>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
@@ -127,28 +110,34 @@
 
             <div class="provide__content">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="provide__image">
-                            <img src="./assets/images/icon.png">
-                        </div>
-                        <h4>Select Destination</h4>
-                        <p>At first choose the place you wanted to go</p>
+                    <div class="col-12 col-sm-4">
+                       <div class="provide__background">
+                           <div class="provide__image">
+                               <img src="./assets/images/icon.png">
+                           </div>
+                           <h4>Select Destination</h4>
+                           <p>At first choose the place you wanted to go</p>
+                       </div>
                     </div>
 
-                    <div class="col-4">
-                        <div class="provide__image">
-                            <img src="./assets/images/icon1.png">
+                    <div class="col-12 col-sm-4">
+                        <div class="provide__background">
+                            <div class="provide__image">
+                                <img src="./assets/images/icon1.png">
+                            </div>
+                            <h4>Book a Trip</h4>
+                            <p>book your tip form our exclusive offers</p>
                         </div>
-                        <h4>Book a Trip</h4>
-                        <p>book your tip form our exclusive offers</p>
                     </div>
 
-                    <div class="col-4">
-                        <div class="provide__image">
-                            <img src="./assets/images/icon2.png" />
+                    <div class="col-12 col-sm-4">
+                        <div class="provide__background">
+                            <div class="provide__image">
+                                <img src="./assets/images/icon2.png" />
+                            </div>
+                            <h4>Take your flight</h4>
+                            <p>Take your flight on selected date and joy</p>
                         </div>
-                        <h4>Take your flight</h4>
-                        <p>Take your flight on selected date and joy</p>
                     </div>
                 </div>
             </div>
@@ -175,22 +164,30 @@
             </div>
 
             <div class="about__content">
-                <div class="row">
+                <div class="row ">
                     <div class="col-12 col-sm-5">
-                        <div class="about__image">
-                            <img src="./assets/images/about1.png">
-                            <div class="about__union">
-                                <img src="./assets/images/Union.png" alt="union">
+                        <div class="about__background">
+                            <div class="about__image">
+                                <img src="./assets/images/about1.png">
+                                <div class="about__union">
+                                    <img src="./assets/images/Union.png" alt="union">
+                                </div>
                             </div>
-                        </div>
-                        <div class="about__text mt-5 pt-5">
-                            <h3>Nanjing, China</h3>
-                            <p>These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series.</p>
+                            <div class="about__text mt-5 pt-5">
+                                <h3>Nanjing, China</h3>
+                                <p>These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series.</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-5 features__item">
-                        <img src="./assets/images/about2.png">
+                    <div class="col-12 col-sm-5 features__item about__item">
+                        <img src="./assets/images/about2.png" width="100%">
+
+                        <div class="about__icon d-flex">
+                            <div><img src="./assets/images/arrow_left.png"></div>
+                            <span class="mx-2"></span>
+                            <div><img src="./assets/images/arrow_right.png"></div>
+                        </div>
                     </div>
 
                     <div class="col-12 col-sm-2 features__item">
@@ -214,31 +211,39 @@
             <div class="features__content">
                 <div class="row">
                     <div class="col-6 col-sm-3">
-                        <img src="./assets/images/feature1.png" width="100%">
-                        <h5>Spain Places</h5>
-                        <p class="d-flex justify-content-between features__text"><span><img src="./assets/images/clock 1.png"><i
+                        <div class="features__background">
+                            <img src="./assets/images/feature1.png" width="100%">
+                            <h5>Spain Places</h5>
+                            <p class="d-flex justify-content-between features__text"><span><img src="./assets/images/clock 1.png"><i
                                     class="px-2">7 Days/6 Nights</i></span> $544.00</p>
+                        </div>
                     </div>
 
                     <div class="col-6 col-sm-3">
-                        <img src="./assets/images/feature1.png" width="100%">
-                        <h5>Japa Places</h5>
-                        <p class="d-flex justify-content-between features__text"><span><img src="./assets/images/clock 1.png"><i
-                                    class="px-2">7 Days/6 Nights</i></span> $544.00</p>
+                        <div class="features__background">
+                            <img src="./assets/images/feature1.png" width="100%">
+                            <h5>Japa Places</h5>
+                            <p class="d-flex justify-content-between features__text"><span><img src="./assets/images/clock 1.png"><i
+                                        class="px-2">7 Days/6 Nights</i></span> $544.00</p>
+                        </div>
                     </div>
 
                     <div class="col-6 col-sm-3">
-                        <img src="./assets/images/feature1.png" width="100%">
-                        <h5>Lodon Places</h5>
-                        <p class="d-flex justify-content-between features__text"><span><img src="./assets/images/clock 1.png"><i
-                                    class="px-2">7 Days/6 Nights</i></span> $544.00</p>
+                        <div class="features__background">
+                            <img src="./assets/images/feature1.png" width="100%">
+                            <h5>Lodon Places</h5>
+                            <p class="d-flex justify-content-between features__text"><span><img src="./assets/images/clock 1.png"><i
+                                        class="px-2">7 Days/6 Nights</i></span> $544.00</p>
+                        </div>
                     </div>
 
                     <div class="col-6 col-sm-3">
-                        <img src="./assets/images/feature1.png" width="100%">
-                        <h5>Canada Places</h5>
-                        <p class="d-flex justify-content-between features__text"><span><img src="./assets/images/clock 1.png"><i
-                                    class="px-2">7 Days/6 Nights</i></span> $544.00</p>
+                        <div class="features__background">
+                            <img src="./assets/images/feature1.png" width="100%">
+                            <h5>Canada Places</h5>
+                            <p class="d-flex justify-content-between features__text"><span><img src="./assets/images/clock 1.png"><i
+                                        class="px-2">7 Days/6 Nights</i></span> $544.00</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -291,7 +296,14 @@
                 <h4 class="mb-3">TOP CITYS</h4>
                 <h2>Our popular cities</h2>
                 <p>We’re a team of humans with the strategy, tools, and solutions and digital products.</p>
+                
+                <div class="city__icon d-flex justify-content-end">
+                    <div><img src="./assets/images/arrow_left.png"></div>
+                    <span class="mx-2"></span>
+                    <div><img src="./assets/images/arrow_right.png"></div>
+                </div>
             </div>
+
 
             <div class="city__content">
                 <div class="row">
@@ -343,56 +355,78 @@
                 <h4 class="m-0">TESTIMONIALS</h4>
                 <h1>What our client say</h1>
                 <p>Create a visual identity for your company, and an overall brand</p>
+            
+                <div class="testimonial__icon d-flex justify-content-end">
+                    <div><img src="./assets/images/arrow_left.png"></div>
+                    <span class="mx-2"></span>
+                    <div><img src="./assets/images/arrow_right.png"></div>
+                </div>
             </div>
 
             <div class="testimonial__content">
                 <div class="row">
-                    <div class="col-6 col-sm-3">
-                        <div class="testimonial__content__header">
-                            <img src="./assets/images/testimonial1.png">
-                            <h5>Sayem Ahmed</h5>
-                            <p>Product designer</p>
+                    <div class="col-6 col-lg-3 mb-5">
+                        <div class="testimonial__background">
+                            <div class="testimonial__content__image">
+                                <img src="./assets/images/testimonial1.png">
+                            </div>
+                            <div class="testimonial__content__header">
+                                <h5>Sayem Ahmed</h5>
+                                <p>Product designer</p>
+                            </div>
+    
+                            <img src="./assets/images/rating.png" class="mt-4 mb-3">
+                            <p>Before we define any approach, we need to define the brands' overall goal. We then need to
+                                dive.</p>
                         </div>
-
-                        <img src="./assets/images/rating.png" class="mt-4 mb-3">
-                        <p>Before we define any approach, we need to define the brands' overall goal. We then need to
-                            dive.</p>
                     </div>
 
-                    <div class="col-6 col-sm-3">
-                        <div class="testimonial__content__header">
-                            <img src="./assets/images/testimonial2.png">
-                            <h5>John Smith</h5>
-                            <p>Product designer</p>
+                    <div class="col-6 col-lg-3 mb-5">
+                        <div class="testimonial__background">
+                            <div class="testimonial__content__image">
+                                <img src="./assets/images/testimonial1.png">
+                            </div>
+                            <div class="testimonial__content__header">
+                                <h5>Sayem Ahmed</h5>
+                                <p>Product designer</p>
+                            </div>
+    
+                            <img src="./assets/images/rating.png" class="mt-4 mb-3">
+                            <p>Before we define any approach, we need to define the brands' overall goal. We then need to
+                                dive.</p>
                         </div>
-
-                        <img src="./assets/images/rating.png" class="mt-4 mb-3">
-                        <p>Before we define any approach, we need to define the brands' overall goal. We then need to
-                            dive.</p>
                     </div>
 
-                    <div class="col-6 col-sm-3">
-                        <div class="testimonial__content__header">
-                            <img src="./assets/images/testimonial3.png">
-                            <h5>Rowhan Doe </h5>
-                            <p>Product designer</p>
+                    <div class="col-6 col-lg-3 mb-5">
+                       <div class="testimonial__background">
+                            <div class="testimonial__content__image">
+                                <img src="./assets/images/testimonial1.png">
+                            </div>
+                            <div class="testimonial__content__header">
+                                <h5>Sayem Ahmed</h5>
+                                <p>Product designer</p>
+                            </div>
+    
+                            <img src="./assets/images/rating.png" class="mt-4 mb-3">
+                            <p>Before we define any approach, we need to define the brands' overall goal. We then need to
+                                dive.</p>
                         </div>
-
-                        <img src="./assets/images/rating.png" class="mt-4 mb-3">
-                        <p>Before we define any approach, we need to define the brands' overall goal. We then need to
-                            dive.</p>
                     </div>
 
-                    <div class="col-6 col-sm-3">
-                        <div class="testimonial__content__header">
-                            <img src="./assets/images/testimonial1.png">
-                            <h5>Adnan Roe</h5>
-                            <p>Product designer</p>
+                    <div class="col-6 col-lg-3 mb-5">
+                        <div class="testimonial__background">
+                            <div class="testimonial__content__image">
+                                <img src="./assets/images/testimonial1.png">
+                            </div>
+                            <div class="testimonial__content__header">
+                                <h5>Sayem Ahmed</h5>
+                                <p>Product designer</p>
+                            </div>
+    
+                            <img src="./assets/images/rating.png" class="mt-4 mb-3">
+                            <p>Before we define any approach, we need to define the brands' overall goal. We then need to
+                                dive.</p>
                         </div>
-
-                        <img src="./assets/images/rating.png" class="mt-4 mb-3">
-                        <p>Before we define any approach, we need to define the brands' overall goal. We then need to
-                            dive.</p>
                     </div>
                 </div>
             </div>
@@ -448,7 +482,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 mt-4">
+                    <div class="col-4 mt-4 footer_recent">
                         <h5 class="mb-3">Recent Post</h5>
                         <p class="m-0">Top 5 Himalayan Treks</p>
                         <p class="m-0">May 17,2021</p>
